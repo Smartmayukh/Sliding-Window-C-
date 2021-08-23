@@ -1,10 +1,31 @@
-\\ Array is given as input ; also window size K 
-
-
+\\ Array is given as input ; also window size is given as K 
+\\ if i and j are the start and end of window then window size k = j - i + 1 
+\\ We initialise the i and j as the starting of the array . Now we increment j until the j-i+1 condition is satisfied 
+\\ As soon as the condition is hit it means that some solution will come from the window
 #include<bits/stdc++.h>
 using namespace std;
 int main()
 {
+
+   i=j=0;
+   int sum ;
+   while(j<size)
+   {
+      sum = sum + arr[j];
+      if(j-i+1<k)
+      {
+         j++;
+      }
+      else if( j-i+1==k)
+      {
+        
+         
+      }
+   }
+   
+   
+   
+
    
 
 }
