@@ -1,0 +1,10 @@
+\\ Array is given as input ; also window size K 
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main()
+{
+   
+
+}
